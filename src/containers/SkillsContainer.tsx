@@ -1,22 +1,43 @@
 import React from 'react'
 import Skill from '../components/Skill'
+import skills from '../data/skills.json'
 
 function SkillsContainer() {
     return (
         <div className='flex justify-center flex-col items-center'>
             <h3 className='text-3xl'>Czym się zajmuję?</h3>
             <div className='grid grid-cols-3 grid-rows-2 gap-5 mt-10'>
-                <Skill title='Produkcja Filmowa' image='../legitka.jpg' content={['Teledyski', 'Filmy Promocyjne', 'Filmy Eventowe', 'Filmy Ślubne', 'Reklamy', 'Spoty', 'Fabuły', 'Filmy Korporacyjne']} />
                 <Skill
-                    title='Korekcja kolorów'
+                    title={skills.data[0].title}
                     image='../legitka.jpg'
-                    content={['Wywołanie Plików RAW', 'Normalizacja', 'Korekcja Kolorów', 'Color Grading', 'Poprawa Wyglądu Skóry', 'Poprawa Stref Ekspozycji']}
+                    content={skills.data[0].details}
+                />
+                <Skill
+                    title={skills.data[1].title}
+                    image='../legitka.jpg'
+                    content={skills.data[1].details}
                     special={true}
                 />
-                <Skill title='Pre/Post-Produkcja' image='../legitka.jpg' content={['Stworzenie Koncepcji', 'Napisanie Scenariusza', 'Montaż Filmowy', 'Efekty Specjalne']} />
-                <Skill title='Web Dev' image='../legitka.jpg' content={['HTML/CSS', 'JavaScript', 'WordPress', 'Animacje', 'Responsywny Design']} />
-                <Skill title='Fotografia' image='../legitka.jpg' content={['Portrety', 'Fotorelacje', 'Zdjęcia Produktowe', 'Reportaże', 'Zdjęcia z Imprez', 'Fotografia Architektoniczna', 'Fotografia Krajobrazowa']} />
-                <Skill title='Muzyka' image='../legitka.jpg' content={['Elektroniczna Kompozycja I Produkcja Muzyki']} />
+                <Skill
+                    title={skills.data[2].title}
+                    image='../legitka.jpg'
+                    content={skills.data[2].details}
+                />
+                <Skill
+                    title={skills.data[3].title}
+                    image='../legitka.jpg'
+                    content={skills.data[3].details}
+                />
+                <Skill
+                    title={skills.data[4].title}
+                    image='../legitka.jpg'
+                    content={skills.data[4].details}
+                />
+                <Skill
+                    title={skills.data[5].title}
+                    image='../legitka.jpg'
+                    content={skills.data[5].details}
+                />
             </div>
         </div>
     )

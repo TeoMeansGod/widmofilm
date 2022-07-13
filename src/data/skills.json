@@ -1,0 +1,71 @@
+{
+    "data": [
+        {
+            "title": "Produkcja Filmowa",
+            "details": [
+                "Teledyski",
+                "Filmy Promocyjne",
+                "Reklamy/Spoty",
+                "Filmy Eventowe",
+                "Filmy Ślubne",
+                "Fabuły",
+                "Filmy Korporacyjne"
+            ]
+        },
+        {
+            "title": "Korekcja Kolorów",
+            "details": [
+                "Wywoływanie Plików RAW",
+                "Normalizacja",
+                "Korekcja Kolorów",
+                "Color Grading",
+                "Poprawa Wyglądu Skóry",
+                "Poprawa Stref Ekspozycji"
+            ]
+        },
+        {
+            "title": "Pre/Post-produkcja",
+            "details": [
+                "Stworzenie Koncepcji",
+                "Napisanie Scenariusza",
+                "Prewizy",
+                "Storyboard",
+                "Montaż Filmowy",
+                "Efekty Specjalne"
+            ]
+        },
+        {
+            "title": "Web Dev",
+            "details": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "WordPress",
+                "Animacje",
+                "Responsywny Design"
+            ]
+        },
+        {
+            "title": "Fotografia",
+            "details": [
+                "Portrety",
+                "Zdjęcia Produktowe",
+                "Reportaże",
+                "Zdjęcia z Imprez",
+                "Fotografia Architektoniczna",
+                "Fotografia Krajobrazowa"
+            ]
+        },
+        {
+            "title": "Muzyka",
+            "details": [
+                "Elektroniczna Kompozycja",
+                "Orkiestra",
+                "Syntezatory",
+                "Gitara Klasyczna i Elektryczna",
+                "Sound Design",
+                "Mix & Master"
+            ]
+        }
+    ]
+}
